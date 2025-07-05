@@ -73,6 +73,7 @@ tensorboard --logdir= dish_detection/test
 ---
 
 ## Инференс видео
+Если проводили обучение, то перекодируйте итоговые веса в папку weights, если нет, то скачайте веса по [ссылке](https://drive.google.com/file/d/10rkjweUfd9dQiSIhKT-sC7GcZCEfnzV1/view?usp=drive_link).
 ```bash
 python video_run.py --video videos/your_video_name
 ```
