@@ -6,3 +6,10 @@
 /data/output_split/
 
 weights/*.pt
+
+# Jupyter: не нужна папка с контрольными точками
+**/.ipynb_checkpoints/
+
+# macOS: скрытые файлы .DS_Store
+**/.DS_Store
+
