@@ -15,7 +15,6 @@
 - Просмотр логов  
 - Предобученные веса  
 - Инференс  
-- Лицензия  
 
 ---
 
@@ -54,12 +53,12 @@ meals_detection/
 ---
 
 ## Генерация синтетических данных
+В папке output_split после запуска create_data.py перекопируйте папки train, val в папку train_data
+В train_data в data.yaml укажите пути к train/images и val/images
 ```bash
 cd data/
 python create_data.py
 ```
-В папке output_split перекопируйте папки train, val в папку train_data
-В train_data в data.yaml укажите пути к train/images и val/images
 ---
 
 ## Запуск обучения
