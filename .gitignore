@@ -1,15 +1,10 @@
-# Игнорировать всё внутри папки videos, но не саму папку
 /videos/*
 !/videos/.gitkeep
 
-# Игнорировать каталог data/output_split целиком
 /data/output_split/
 
 weights/*.pt
 
-# Jupyter: не нужна папка с контрольными точками
 **/.ipynb_checkpoints/
-
-# macOS: скрытые файлы .DS_Store
 **/.DS_Store
 
