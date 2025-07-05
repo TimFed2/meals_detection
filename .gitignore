@@ -1,0 +1,7 @@
+# Игнорировать всё внутри папки videos, но не саму папку
+/videos/*
+!/videos/.gitkeep
+
+# Игнорировать каталог data/output_split целиком
+/data/output_split/
+
