@@ -1,8 +1,8 @@
+import numpy as np
 import argparse
 import cv2
 import torch
 import clip
-import numpy as np
 from ultralytics import YOLO
 from PIL import Image
 from tqdm import tqdm
