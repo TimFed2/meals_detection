@@ -12,7 +12,7 @@ from pathlib import Path
 parser = argparse.ArgumentParser()
 parser.add_argument("--video", type=str, required=True, help="Путь к видеофайлу")
 parser.add_argument("--output", type=str, default=None, help="Путь к выходному видео")
-parser.add_argument("--conf", type=float, default=0.7, help="Порог confidence для YOLO")
+parser.add_argument("--conf", type=float, default=0.6, help="Порог confidence для YOLO")
 parser.add_argument("--iou", type=float, default=0.55, help="Порог IoU для YOLO")
 args = parser.parse_args()
 
