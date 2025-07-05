@@ -1,0 +1,15 @@
+train: /path_to_project/meals_detection/data/train_data/train/images
+val:   /path_to_project/meals_detection/data/train_data/val/images
+
+# Количество классов
+nc: 7
+
+# Имена классов (индекс: имя)
+names:
+  0: tea
+  1: greek_salad
+  2: shrimp_caesar_salad
+  3: lamb_meat
+  4: chicken_steak
+  5: borsch
+  6: yellow_soup
