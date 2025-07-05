@@ -5,3 +5,4 @@
 # Игнорировать каталог data/output_split целиком
 /data/output_split/
 
+weights/*.pt
